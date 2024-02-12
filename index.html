@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h2>to do list</h2>
+        <div class="form-control">
+          <input id="grocery" placeholder="e.g. Debug your code" type="text" />
+          <button class="submit-btn" type="submit">submit</button>
+        </div>
+      </form>
+      <!-- end of grocery-form -->
+      <div class="grocery-container">
+        <!-- grocery-list -->
+        <div class="grocery-list"></div>
+        <!-- clear list -->
+        <div class="clear-container">
+          <button class="clear-btn" type="button">clear items</button>
+        </div>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
